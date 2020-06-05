@@ -10,6 +10,7 @@ else
   #   attendees.map.with_index(1) do |attendee, index|
   # "Hello, #{attendee}! You'll be assigned to room #{index}!"
   # end 
+  end 
 end 
 
 def take_a_number(array, name)
