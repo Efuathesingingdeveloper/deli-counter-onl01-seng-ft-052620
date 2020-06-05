@@ -1,5 +1,5 @@
 def line(array)
-   array.map.with_index(1) do |name, index|
+   array.map!.with_index(1) do |name, index|
   "#{index}, #{name}"  
   end
  
@@ -22,4 +22,4 @@ def now_serving(array)
   else
     puts "There is nobody waiting to be served!"
   end 
-end 
+end
